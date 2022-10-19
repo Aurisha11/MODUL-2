@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<htm   l>
+<head>
+ <title>Belajar Membuat Form </title>
+</head>
+<body>
+<b><p>Formulir Pendaftaran Perpustakaan Kota Madiun</b></p>
+<form action=" formulir.html" method="get">
+Nama Lengkap: <input type="text" name="nama" />
+<br />
+Tempat Tanggal Lahir: <input type="text" name="ttl" />
+<br />
+Pendidikan: <input type="text" name="pendidikan" />
+<br />
+Alamat: <input type="text" name="Alamat" />
+<br/>
+Email: <input type="text" name="Email" />
+<br/>
+Telepon: <input type="text" name="Telepon" />
+<br/>
+Jenis Kelamin : 
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked  /> 
+Laki - Laki
+<input type="radio" name="jenis_kelamin" value="perempuan" /> 
+Perempuan
+<br />
+Jenis Anggota : 
+<input type="radio" name="jenis_anggota" value="Umum" checked  /> 
+Umum
+<input type="radio" name="jenis_anggota" value="Pelajar" /> 
+Pelajar
+<br />
+Hobi: <input type="checkbox" name="hobi_baca" /> Membaca Buku
+<input type="checkbox" name="hobi_nulis" checked /> Menulis
+<input type="checkbox" name="hobi_mancing" /> Memancing 
+<input type="checkbox" name="hobi_traveling" /> Traveling
+<input type="checkbox" name="hobi_olahraga" /> Olahraga
+<br />
+Asal Kota:
+<select name="asal_kota" >
+<option value="Kota Jakarta"> Jakarta</option>
+<option>Bandung</option>
+<option value="Kota Semarang" selected>Semarang</option>
+</select>
+<br />
+Catatan:
+<textarea name="komentar" rows="5" cols="20">
+Silahkan katakan isi hati anda
+</textarea>
+<br />
+<input type="submit" value="Mulai Proses!" >
+</form>
+</body>
+</html>
